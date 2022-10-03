@@ -70,13 +70,13 @@ a{
 }
 .container-1200px{
     max-width: 1200px;
-    height: 300px;
+    min-height: 300px;
     padding: 20px 0;
     position: relative;
     top: 100px;
 }
 h1{
-    font-size: 30px;
+    font-size: 90px;
     font-weight: bold;
 }
 .box-testo-img{
@@ -89,4 +89,7 @@ h1{
 .img-jumbo{
     /* position: absolute; */
     width: 70%;
+}
+h2{
+    top: 100px;
 }
