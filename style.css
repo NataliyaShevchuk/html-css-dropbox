@@ -90,6 +90,35 @@ h1{
     /* position: absolute; */
     width: 70%;
 }
+.spazio-extra{
+    margin-top: 100px;
+}
+.container-920px{
+    max-width: 920px;
+    padding: 20px 0;
+}
 h2{
-    top: 100px;
+    font-size: 40px;
+    text-align: start;
+}
+.radio-checkbox{
+    padding: 50px 0;
+    display: flex;
+    accent-color: var(--color-buttons);
+}
+.checkbox-mensile{
+padding-right: 20px;
+}
+.container-columns{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.column{
+    max-width: 200px;
+    min-height: 600px;
+    border: 0.05px solid black;
+}
+ul li{
+    list-style: none;
 }
