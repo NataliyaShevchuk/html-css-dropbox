@@ -59,3 +59,34 @@ a{
     border: none;
     font-size: 14px;
 }
+.sezione{
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bg-celeste{
+    background-color: var(--color-bg);
+}
+.container-1200px{
+    max-width: 1200px;
+    height: 300px;
+    padding: 20px 0;
+    position: relative;
+    top: 100px;
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.box-testo-img{
+    display: flex;
+}
+.box-testo{
+    width: 30%;
+    text-align: start;
+}
+.img-jumbo{
+    /* position: absolute; */
+    width: 70%;
+}
