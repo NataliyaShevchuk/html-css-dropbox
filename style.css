@@ -140,3 +140,6 @@ i{
 hr{
     width: 20%;
 }
+.fa{
+    color: var(--color-buttons);
+}
