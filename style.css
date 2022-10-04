@@ -61,7 +61,6 @@ a{
     font-size: 14px;
 }
 .sezione{
-    padding: 40px 0;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -220,7 +219,19 @@ hr{
 }
 .text-box{
     width: 40%;
-    padding: 0 72px;
+    padding: 10px 72px;
+}
+h3{
+    padding: 20px 0;
+    font-size: 20px;
+}
+.btn-white{
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+    background-color: white;
+    border: 00.05px solid black;
+    padding: 6px 12px;
 }
 .flex{
     display: flex;
@@ -243,6 +254,9 @@ hr{
 .corpo-light{
     text-decoration: underline;
     color: var(--color-buttons);
+}
+.line-height{
+    line-height: 20px;
 }
 
 .flex-inline{
