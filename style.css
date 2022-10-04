@@ -15,6 +15,7 @@
     --bg-hearst: #B4D0E7;
     --bg-lonely: #0D2481;
     --bg-channel: #FFD830;
+    --color-colonna: rgb(182, 182, 182);
     
     /* size titles */
 }
@@ -55,12 +56,12 @@ a{
 .btn{
     background-color: var(--color-buttons);
     color: white;
-    padding: 5px 12px;
+    padding: 6px 12px;
     border: none;
     font-size: 14px;
 }
 .sezione{
-    padding: 20px 0;
+    padding: 40px 0;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -70,20 +71,38 @@ a{
 }
 .container-1000px{
     max-width: 1000px;
-    padding: 20px 0;
+    padding: 40px 0;
     position: relative;
     top: 100px;
 }
 h1{
     font-size: 78px;
     font-weight: bold;
+    padding-bottom: 25px;
+}
+.font-light{
+    font-weight: 300;
+}
+.padding-bt25px{
+    padding-bottom: 25px;
+}
+.margin-bt35px{
+    margin-bottom: 35px;
+}
+.padding-bt50px{
+    padding-bottom: 50px;
+}
+.chevron{
+    font-size: 60px;
 }
 .box-testo-img{
     display: flex;
+    padding-top: 40px 0;
 }
 .box-testo{
     width: 30%;
     text-align: start;
+    line-height: 22px;
 }
 .img-jumbo{
     width: 70%;
@@ -93,7 +112,7 @@ h1{
 }
 .container-920px{
     max-width: 920px;
-    padding: 20px 0;
+    padding: 40px 0;
     width: 100%;
 }
 h2{
@@ -113,45 +132,87 @@ padding-right: 20px;
     justify-content: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-bottom: 25px;
 }
 .column{
-    /* max-width: 200px; */
     min-height: 600px;
-    border: 0.05px solid black;
+    border: 0.05px solid var(--color-colonna);
     flex-basis: 27%;
 }
 .titolo{
-    border-bottom: 0.05px solid black;
+    border-bottom: 0.05px solid var(--color-colonna);
+    font-weight: 300;
+    font-size: small;
     text-align: center;
     padding: 10px 0;
 }
+.titolo-small{
+    font-weight: 500;
+    font-size: 18px;
+}
 .contenitore-interno{
-    padding: 10px 10px;
+    padding: 10px 20px;
     text-align: start;
 }
 ul li{
     list-style: none;
+    padding: 8px 0;
+}
+.padding-bt160px{
+    padding-bottom: 160px;
+}
+ul{
+    font-size: small;
+    padding-top: 20px;
 }
 i{
     padding-right: 2px;
 }
+.col-btn{
+    padding: 8px 22px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.pad{
+    padding: 8px 70px;
+}
+.oppure-text{
+    font-size: 14px;
+    font-weight: 300;
+}
+.underline{
+    text-decoration: underline;
+    color: var(--color-buttons);
+}
 .space-between{
     padding: 10px 0;
+}
+.time{
+    color: var(--color-colonna);
+    font-size: 12px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+.price{
+    font-weight: 500;
+    font-size: 14px;
 }
 hr{
     width: 20%;
     height: 1px;
+    margin: 20px 0;
 }
 .fa{
     color: var(--color-buttons);
 }
 .column-large{
-    border: 0.05px solid black;
+    border: 0.05px solid rgb(182, 182, 182);;
     margin-top: 20px;
 }
 .contenitore-text-button{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px;
 }
 .partner{
     width: 60%;
@@ -225,8 +286,7 @@ hr{
     width: 20%;
     height: 1px;
     background-color: #c2c5c1;
-    display: flex;
-    justify-content: flex-start;
+    margin: 15px 0;
 }
 .top-0{
     top: 0px;
@@ -236,12 +296,62 @@ hr{
 }
 
 .brand-section{
+    width: 100%;
     display: flex;
-    width: calc(100%vw / 3);
 }
 .colonna-solo-brand{
     background-color: var(--bg-designit-grey);
+    width : calc(100% / 3);
+    padding: 40px;
+}
+.cit{
+    padding: 15px 0;
+    font-weight: 300;
+    font-size: 14px;
 }
 .colonna-multi-brand{
+    aspect-ratio: 1 / 1;
+    width : calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fix{
     width: 50%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.svg{
+    width: 50%;
+}
+.svg-img{
+    width: 50%;
+    filter: invert();
+}
+.bg-designit{
+    background-color: var(--designit-in);
+    border: 10px solid var(--designit-out);
+}
+.bg-arizona{
+    background-color: var(--bg-arizona);
+}
+.bg-florida{
+    background-color: var(--bg-florida);
+}
+.bg-topps{
+    background-color: var(--bg-topps);
+}
+.bg-bicycle{
+    background-color: var(--bg-bicycle);
+}
+.bg-hearst{
+    background-color: var(--bg-hearst);
+}
+.bg-lonely{
+    background-color: var(--bg-lonely);
+}
+.bg-channel{
+    background-color: var(--bg-channel);
 }
