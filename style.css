@@ -242,6 +242,9 @@ h3{
     object-fit: contain;
     display: block;
 }
+.pad-space{
+    padding: 0 20px;
+}
 
 .card-container{
     display: flex;
@@ -250,6 +253,7 @@ h3{
 }
 .card{
     flex-basis: 33.3%;
+    padding-right: 20px;
 }
 .corpo-light{
     text-decoration: underline;
@@ -258,7 +262,12 @@ h3{
 .line-height{
     line-height: 20px;
 }
-
+h2{
+    padding-bottom: 40px;
+}
+.pad-bt20px{
+    padding-bottom: 20px;
+}
 .flex-inline{
     display: flex;
 }
