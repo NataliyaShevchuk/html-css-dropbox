@@ -242,9 +242,6 @@ h3{
     object-fit: contain;
     display: block;
 }
-.pad-space{
-    padding: 0 20px;
-}
 
 .card-container{
     display: flex;
@@ -276,8 +273,7 @@ h2{
 }
 .grey{
     color: var(--color-text);
-    background-color: rgb(226, 223, 223);
-    border: none;
+    background-color: rgb(240, 235, 235);
 }
 .end{
     display: flex;
@@ -286,7 +282,9 @@ h2{
 .hr-q{
     width: 100%;
     height: 1px;
-    color: rgb(226, 223, 223);
+    border: 1px;
+    background-color: rgb(226, 223, 223);
+    margin: 20px 0;
 }
 .flex-column{
     flex-direction: column;
@@ -304,10 +302,18 @@ h2{
 .colonna{
     padding: 0 20px;
 }
+.colonna-q{
+    display: flex;
+    justify-content: space-between;
+}
+h5{
+    font-weight: 400;
+}
 
 .hr{
     width: 20%;
     height: 1px;
+    border: 1px;
     background-color: #c2c5c1;
     margin: 15px 0;
 }
@@ -317,10 +323,16 @@ h2{
 .padding{
     padding: 30px;
 }
-
+.pad-40px{
+    padding: 40px 0;
+}
+.bordo{
+    color: var(--color-text-red);
+}
 .brand-section{
     width: 100%;
     display: flex;
+    padding-top: 40px;
 }
 .colonna-solo-brand{
     background-color: var(--bg-designit-grey);
