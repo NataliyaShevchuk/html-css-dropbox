@@ -68,15 +68,14 @@ a{
 .bg-celeste{
     background-color: var(--color-bg);
 }
-.container-1200px{
-    max-width: 1200px;
-    min-height: 300px;
+.container-1000px{
+    max-width: 1000px;
     padding: 20px 0;
     position: relative;
     top: 100px;
 }
 h1{
-    font-size: 90px;
+    font-size: 78px;
     font-weight: bold;
 }
 .box-testo-img{
@@ -216,11 +215,33 @@ hr{
 
 .contenitore-flex{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 .colonna{
     padding: 0 20px;
 }
 
+.hr{
+    width: 20%;
+    height: 1px;
+    background-color: #c2c5c1;
+    display: flex;
+    justify-content: flex-start;
+}
+.top-0{
+    top: 0px;
+}
+.padding{
+    padding: 30px;
+}
+
+.brand-section{
+    display: flex;
+    width: calc(100%vw / 3);
+}
+.colonna-solo-brand{
+    background-color: var(--bg-designit-grey);
+}
+.colonna-multi-brand{
+    width: 50%;
+}
