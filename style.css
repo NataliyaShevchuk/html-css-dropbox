@@ -347,6 +347,7 @@ h5{
     background-color: var(--bg-designit-grey);
     width : calc(100% / 3);
     padding: 40px;
+    overflow: hidden;
 }
 .cit{
     padding: 15px 0;
