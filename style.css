@@ -272,13 +272,19 @@ h2{
 .height-extra{
     height: 80px
 }
-.grey{
+.grey-btn{
     color: var(--color-text);
-    background-color: rgb(240, 235, 235);
+    background-color: rgb(245, 245, 245);
+    padding: 8px 30px;
+    font-weight: 300;
+    border: none;
+    font-size: 14px;
 }
 .end{
     display: flex;
     justify-content: end;
+    align-items: start;
+    padding: 10px 0;
 }
 .hr-q{
     width: 100%;
