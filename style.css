@@ -374,6 +374,7 @@ h5{
 .svg-img{
     width: 50%;
     filter: invert();
+    display: block;
 }
 .bg-designit{
     background-color: var(--designit-in);
